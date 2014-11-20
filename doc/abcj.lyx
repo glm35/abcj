@@ -73,10 +73,32 @@ TODO
 \end_layout
 
 \begin_layout Subsection
+Etat de l'art
+\end_layout
+
+\begin_layout Itemize
+Essayer EasyABC (http://www.nilsliberg.se/ksp/easyabc/).
+ Plus maintenu d'après http://ifdo.ca/~seymour/easy/.
+ Sur sourceforge mainteant: http://sourceforge.net/projects/easyabc/?source=direc
+tory.
+ (Python 2.7 + wxPython).
+\end_layout
+
+\begin_layout Itemize
+Rédiger un état de l'art des éditeurs ABC sous Linux (pour mémoire).
+ Voir http://abcplus.sourceforge.net/ et http://abcnotation.com/software#linux
+\end_layout
+
+\begin_layout Subsection
 Compilation avec Maven
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+Compiler avec java 7 (ou java 8 si besoin).
+ Justifier le besoin?
+\end_layout
+
+\begin_layout Itemize
 Ajouter une cible exec pour pouvoir lancer abcj.
 \end_layout
 
@@ -94,6 +116,158 @@ Avec Ctrl+V mais pas avec la souris.
 
 \begin_layout Subsubsection
 Tempo incorrect au démarrage du playback
+\end_layout
+
+\begin_layout Subsection
+Ajouter des fonctionnalités
+\end_layout
+
+\begin_layout Subsubsection
+Pouvoir ordonner la liste des 
+\begin_inset Quotes eld
+\end_inset
+
+ABC books
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ordonnancement manuel (à la discrétion de l'utilisateur)
+\end_layout
+
+\begin_layout Itemize
+Ordonnancement automatique (par ordre alphabétique; soit à la demande, soit
+ systématiquement)
+\end_layout
+
+\begin_layout Subsubsection
+Pouvoir ordonner la liste des morceaux dans un 
+\begin_inset Quotes eld
+\end_inset
+
+ABC book
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ordonner la liste dans l'ordre croissant des index (X:NN)
+\end_layout
+
+\begin_layout Itemize
+ou renuméroter les morceaux pour qu'ils soient dans l'ordre de la liste
+\end_layout
+
+\begin_layout Itemize
+Pouvoir changer l'ordre des morceaux (manuellement ou automatiquement, idem
+ les abc books)
+\end_layout
+
+\begin_layout Subsubsection
+Playback lors de l'édition
+\end_layout
+
+\begin_layout Itemize
+Pouvoir entendre les notes au moment où on édite le texte
+\end_layout
+
+\begin_layout Subsubsection
+Playback sélectif
+\end_layout
+
+\begin_layout Itemize
+Pouvoir jouer (une fois ou en boucle) le texte ABC sélectionné
+\end_layout
+
+\begin_layout Subsubsection
+Pouvoir revenir en arrière/aller de l'avant dans le playback
+\end_layout
+
+\begin_layout Itemize
+Pouvoir changer la position du 
+\begin_inset Quotes eld
+\end_inset
+
+curseur
+\begin_inset Quotes erd
+\end_inset
+
+ lors du playback d'un morceau
+\end_layout
+
+\begin_layout Subsubsection
+Playback en boucle
+\end_layout
+
+\begin_layout Itemize
+Pouvoir répéter un morceau
+\end_layout
+
+\begin_layout Subsubsection
+Clic avant playback
+\end_layout
+
+\begin_layout Itemize
+Donner le tempo au métronome avant de commencer à jouer
+\end_layout
+
+\begin_layout Subsubsection
+Choix du tempo pour le playback
+\end_layout
+
+\begin_layout Itemize
+Pouvoir éditer le tempo
+\end_layout
+
+\begin_layout Itemize
+Pouvoir choisir le tempo parmi des tempos 
+\begin_inset Quotes eld
+\end_inset
+
+standard
+\begin_inset Quotes erd
+\end_inset
+
+: eg slow reel, medium reel, ceili reel, fast reel
+\end_layout
+
+\begin_layout Subsubsection
+Ajouter des raccourcis clavier
+\end_layout
+
+\begin_layout Itemize
+Ctrl+F pour rechercher
+\end_layout
+
+\begin_layout Itemize
+Entrée dans le champ de recherche pour lancer la recherche!
+\end_layout
+
+\begin_layout Itemize
+Ne pas changer la vue de l'index quand on recherche un morceau (use case:
+ je cherche un morceau pour le copier dans mon book).
+ Mais peut-être pouvoir aller au morceau dans la vue index.
+\end_layout
+
+\begin_layout Subsubsection
+Exporter en PDF avec lilypond
+\end_layout
+
+\begin_layout Itemize
+Pour avoir un joli rendu
+\end_layout
+
+\begin_layout Subsubsection
+Coloration syntaxique dans l'editeur
+\end_layout
+
+\begin_layout Itemize
+Voir dans easyabc si ça apporte quelque chose.
 \end_layout
 
 \end_body
