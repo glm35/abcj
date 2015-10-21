@@ -1,5 +1,5 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass article
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
-\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
+
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -28,24 +28,15 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_package amsmath 1
-\use_package amssymb 1
-\use_package cancel 1
-\use_package esint 1
-\use_package mathdots 1
-\use_package mathtools 1
-\use_package mhchem 1
-\use_package stackrel 1
-\use_package stmaryrd 1
-\use_package undertilde 1
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
-\cite_engine_type default
-\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -68,25 +59,123 @@
 
 \begin_body
 
+\begin_layout Title
+Expression de besoins pour abcj
+\end_layout
+
 \begin_layout Section
-TODO
+Objectifs du document
+\end_layout
+
+\begin_layout Itemize
+Décrire ce que j'attends d'un logiciel de musique permettant de manipuler
+ des fichiers ABC sous Linux
+\end_layout
+
+\begin_layout Section
+Qu'est-ce que abcj? Pourquoi abcj?
+\end_layout
+
+\begin_layout Standard
+abcj est un logiciel permettant d'éditer des fichiers ABC, de jouer des
+ fichiers ABC et de gérer une collection de fichiers ABC.
+\end_layout
+
+\begin_layout Standard
+Plus précisément, mes usages d'abcj:
+\end_layout
+
+\begin_layout Itemize
+Garder une trace écrite des airs que j'apprends à la flûte ou à la guitare,
+ et simplifier la rédaction des fichiers ABC
+\end_layout
+
+\begin_layout Itemize
+Jouer les airs ABC pour pouvoir pratiquer l'accompagnement à la guitare
+ par dessus
+\end_layout
+
+\begin_layout Itemize
+Organiser des recueils d'airs ABC: airs joués avec Cunla, airs joués à la
+ flûte, compos de François, ...
+\end_layout
+
+\begin_layout Itemize
+Chercher un air parmi tous les recueils
+\end_layout
+
+\begin_layout Section
+Documentation
+\end_layout
+
+\begin_layout Standard
+La documentation est une doc de travail rédigée sous LyX et en français.
+\end_layout
+
+\begin_layout Standard
+Les commentaires dans le code et les commits Git sont rédigés en anglais
+ pour être publiés sur Internet tel quel.
+\end_layout
+
+\begin_layout Standard
+La documentation se compose de plusieurs documents:
 \end_layout
 
 \begin_layout Subsection
-Etat de l'art
+Expression de besoin
+\end_layout
+
+\begin_layout Standard
+Le présent document.
 \end_layout
 
 \begin_layout Itemize
-Essayer EasyABC (http://www.nilsliberg.se/ksp/easyabc/).
- Plus maintenu d'après http://ifdo.ca/~seymour/easy/.
- Sur sourceforge mainteant: http://sourceforge.net/projects/easyabc/?source=direc
-tory.
- (Python 2.7 + wxPython).
+Décrit les objectifs haut niveau du logiciel
 \end_layout
 
 \begin_layout Itemize
-Rédiger un état de l'art des éditeurs ABC sous Linux (pour mémoire).
- Voir http://abcplus.sourceforge.net/ et http://abcnotation.com/software#linux
+Décrit les fonctionnalités du logiciel dans le détail, d'un point de vue
+ utilisateur
+\end_layout
+
+\begin_layout Itemize
+Décrit les différents documents et leur contenu
+\end_layout
+
+\begin_layout Subsection
+Etat de l'art des logiciels ABC sous Linux
+\end_layout
+
+\begin_layout Standard
+Qu'est-ce qui existe, qu'est-ce que ça fait?
+\end_layout
+
+\begin_layout Standard
+Points forts et limites par rapport à mes attentes?
+\end_layout
+
+\begin_layout Standard
+D'où je pars pour abcj?
+\end_layout
+
+\begin_layout Subsection
+Conception d'abcj
+\end_layout
+
+\begin_layout Standard
+Choix techniques et notes de conception.
+\end_layout
+
+\begin_layout Subsection
+Guide d'installation
+\end_layout
+
+\begin_layout Standard
+Comment compiler et installer abcj.
+\end_layout
+
+\begin_layout Section
+TODO
 \end_layout
 
 \begin_layout Subsection
