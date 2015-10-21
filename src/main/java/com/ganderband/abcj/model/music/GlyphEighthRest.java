@@ -1,7 +1,7 @@
 /**
  * The glyph class for an eighth rest.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphEighthRest extends Glyph
 {

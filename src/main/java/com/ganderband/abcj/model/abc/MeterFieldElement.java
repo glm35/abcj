@@ -3,9 +3,9 @@
  * 
  * <p>Meters are of the form x/y, x+y/z or x+y+.../z
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class MeterFieldElement extends FieldElement
 {

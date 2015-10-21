@@ -5,12 +5,12 @@
  * responsive.   Even though the parser is efficient (approx 15ms to parse a
  * standard tune), the GUI may be impacted otherwise.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.util.* ;
 import  javax.swing.* ;
-import  abcj.model.abc.* ;
-import  abcj.model.music.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.model.music.* ;
 
 public class ParserThread extends Thread implements Runnable
 {

@@ -1,7 +1,7 @@
 /**
  * The glyph class for a Flag Down (for quaver downwards).
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphFlagDown extends Glyph
 {

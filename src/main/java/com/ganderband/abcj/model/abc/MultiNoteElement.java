@@ -3,10 +3,10 @@
  * 
  * <p>This is based on <code>NoteElement</code> as there is much in common.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class MultiNoteElement extends NoteElement
 {

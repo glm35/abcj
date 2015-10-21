@@ -4,9 +4,9 @@
  * Certain special fields (e.g. tempo) will subclass this to provide
  * extra function.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public abstract class FieldElement extends ABCElement
 {

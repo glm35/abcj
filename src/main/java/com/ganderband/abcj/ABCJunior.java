@@ -1,7 +1,7 @@
 /**
  * The main class to instantiate ABCJunior.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import java.awt.Dimension;
 import java.awt.Rectangle;
@@ -9,8 +9,8 @@ import java.awt.Toolkit;
 
 import  javax.swing.* ;
 
-import abcj.model.Tune;
-import abcj.ui.AppletMainPane;
+import com.ganderband.abcj.model.Tune;
+import com.ganderband.abcj.ui.AppletMainPane;
 
 public class ABCJunior extends ABCJ
 {

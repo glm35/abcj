@@ -1,12 +1,12 @@
 /**
  * The ABCJ MenuBar class.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class ABCJMenuBar extends JMenuBar implements ActionListener, ABCJConstants
 {

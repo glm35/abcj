@@ -1,10 +1,10 @@
 /**
  * This class represents the complete tune library (in memory).
  */
-package  abcj.model ;
+package  com.ganderband.abcj.model ;
 
 import  java.util.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class Library
 {

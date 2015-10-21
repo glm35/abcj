@@ -1,7 +1,7 @@
 /**
  * The glyph class for Fermata.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphFermata extends Glyph
 {

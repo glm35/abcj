@@ -5,7 +5,7 @@
  * It essentially just draws the relevant symbol.   Like the beamers, it
  * is calculated when all else has been completed and positioned.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.util.* ;
 import  java.awt.geom.* ;

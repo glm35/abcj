@@ -4,13 +4,13 @@
  * <p>This abstract class provides common function shared between all
  * book/tune index panes.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.util.* ;
 import  javax.swing.* ;
 import  javax.swing.tree.* ;
-import  abcj.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
 
 public abstract class BaseIndexPane extends JScrollPane
 {

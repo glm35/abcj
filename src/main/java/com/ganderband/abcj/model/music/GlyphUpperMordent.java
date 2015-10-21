@@ -1,7 +1,7 @@
 /**
  * The glyph class for an upper mordent.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphUpperMordent extends Glyph
 {

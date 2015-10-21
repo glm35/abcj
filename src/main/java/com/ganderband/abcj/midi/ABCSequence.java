@@ -3,13 +3,13 @@
  * 
  * <p>This used the javax.sound.midi package.
  */
-package  abcj.midi ;
+package  com.ganderband.abcj.midi ;
 
 import  javax.sound.midi.* ;
 import  java.util.* ;
-import  abcj.model.abc.* ;
-import  abcj.util.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.util.* ;
+import  com.ganderband.abcj.* ;
 
 /**
  * @author Steve Spencer-Jowett

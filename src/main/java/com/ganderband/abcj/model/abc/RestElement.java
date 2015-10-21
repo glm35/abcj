@@ -1,7 +1,7 @@
 /**
  * An element representing a rest.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
 

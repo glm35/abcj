@@ -1,7 +1,7 @@
 /**
  * Common metrics used by musical drawing.
  */
-package abcj.model.music;
+package com.ganderband.abcj.model.music;
 
 public interface GlyphMetrics
 {

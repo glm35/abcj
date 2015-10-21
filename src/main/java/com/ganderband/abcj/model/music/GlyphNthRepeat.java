@@ -1,10 +1,10 @@
 /**
  * The glyph class for an nth repeat.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.* ;
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.model.abc.* ;
 
 public class GlyphNthRepeat extends GlyphArray
 {

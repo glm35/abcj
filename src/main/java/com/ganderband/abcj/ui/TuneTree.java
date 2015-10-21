@@ -6,12 +6,12 @@
  * <p>Note that the list index pane allows multiple selection and also
  * drag and drop.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.util.* ;
 import  javax.swing.tree.* ;
-import  abcj.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
 
 public class TuneTree extends BaseTree
 {

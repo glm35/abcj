@@ -1,7 +1,7 @@
 /**
  * The properties used by ABCJ.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.awt.* ;
 import  java.util.* ;

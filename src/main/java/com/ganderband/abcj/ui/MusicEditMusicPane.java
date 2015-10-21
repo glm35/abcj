@@ -1,10 +1,10 @@
 /**
  * The bottom music editor pane of the ABC GUI - For editting the music.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class MusicEditMusicPane extends JScrollPane
 {

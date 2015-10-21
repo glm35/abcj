@@ -1,11 +1,11 @@
 /**
  * The book popup menu for the index pane.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.event.* ;
 import  javax.swing.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class BookPopupMenu extends JPopupMenu implements ActionListener
 {

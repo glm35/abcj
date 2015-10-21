@@ -1,7 +1,7 @@
 /**
  * The constants used throughout ABCJ.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 public interface ABCJConstants
 {

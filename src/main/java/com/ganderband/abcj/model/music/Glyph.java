@@ -3,11 +3,11 @@
  * 
  * <p>These symbolds a represented as Java2D shapes.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.geom.* ;
 import  java.awt.* ;
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.model.abc.* ;
 
 public abstract class Glyph implements Shape, GlyphMetrics, ABCParserConstants
 {

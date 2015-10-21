@@ -3,10 +3,10 @@
  * 
  * <p>This is the "w:" field and not the "W:" field.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
-import  abcj.model.music.* ;
+import  com.ganderband.abcj.model.music.* ;
 
 public class WordsFieldElement extends FieldElement
 {

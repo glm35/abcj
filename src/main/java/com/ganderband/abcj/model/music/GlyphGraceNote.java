@@ -8,9 +8,9 @@
  * <p>Grace notes are always drawn upwards
  */
 
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.model.abc.* ;
 import  java.awt.* ;
 
 

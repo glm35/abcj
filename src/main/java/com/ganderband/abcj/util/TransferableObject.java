@@ -6,7 +6,7 @@
  * 
  * <p>This is only usable within a single JVM.
  */
-package  abcj.util ;
+package  com.ganderband.abcj.util ;
 
 import  java.awt.datatransfer.* ;
 

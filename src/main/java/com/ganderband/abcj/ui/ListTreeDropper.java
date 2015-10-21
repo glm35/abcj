@@ -1,15 +1,15 @@
 /**
  * A dropper instance to handle drop onto a list tree.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.util.* ;
 import  java.awt.* ;
 import  java.awt.dnd.* ;
 import  java.awt.datatransfer.* ;
 import  javax.swing.tree.* ;
-import  abcj.util.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.util.* ;
+import  com.ganderband.abcj.model.* ;
 
 public class ListTreeDropper implements DropTargetListener
 {

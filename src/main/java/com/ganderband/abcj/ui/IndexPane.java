@@ -1,9 +1,9 @@
 /**
  * The left hand index pane of the ABC GUI.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class IndexPane extends BaseIndexPane
 {

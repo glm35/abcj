@@ -3,10 +3,10 @@
  * 
  * <p>This class is also used for rests by subclassing.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
-import  abcj.model.abc.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class GlyphSingleNote extends GlyphNoteBase
 {

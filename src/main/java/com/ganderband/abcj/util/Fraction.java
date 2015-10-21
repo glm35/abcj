@@ -2,7 +2,7 @@
  * A class to manage fractions.
  */
 
-package  abcj.util;
+package  com.ganderband.abcj.util;
 
 import  java.io.* ;
 

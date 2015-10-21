@@ -1,7 +1,7 @@
 /**
  * The glyph class for a treble clef.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphTrebleClef extends Glyph
 {

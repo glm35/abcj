@@ -1,7 +1,7 @@
 /**
  * The glyph class for a stave.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 import  java.awt.* ;
 

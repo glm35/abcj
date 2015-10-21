@@ -3,7 +3,7 @@
  * 
  * <p>These symbolds a represented as Java2D shapes.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.util.* ;
 import  java.awt.* ;

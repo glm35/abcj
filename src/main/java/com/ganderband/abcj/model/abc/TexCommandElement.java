@@ -1,7 +1,7 @@
 /**
  * A class representing a Tex Command Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class TexCommandElement extends ABCElement
 {

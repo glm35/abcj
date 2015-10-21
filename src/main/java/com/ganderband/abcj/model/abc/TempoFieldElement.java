@@ -11,9 +11,9 @@
  * "Cnnn/nnn=nnn"		nnn		nnn		nnn		false
  * "nnn/nnn=nnn" 		nnn		nnn		nnn		true
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class TempoFieldElement extends FieldElement
 {

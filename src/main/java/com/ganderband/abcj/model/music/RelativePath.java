@@ -1,7 +1,7 @@
 /**
  * A class representing a relative path rather than an absolute path.
  */
-package abcj.model.music ;
+package com.ganderband.abcj.model.music ;
 
 import  java.awt.geom.* ;
 

@@ -1,14 +1,14 @@
 /**
  * A class for collecting some basic tree management stuff.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.util.* ;
 import  javax.swing.* ;
 import  javax.swing.tree.* ;
 import  javax.swing.event.* ;
-import  abcj.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
 
 public abstract class BaseTree extends JTree implements TreeSelectionListener
 {

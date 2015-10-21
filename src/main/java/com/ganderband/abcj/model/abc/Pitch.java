@@ -1,7 +1,7 @@
 /**
  * A class representing a pitch in ABC.
  */
-package abcj.model.abc;
+package com.ganderband.abcj.model.abc;
 
 public class Pitch
 {

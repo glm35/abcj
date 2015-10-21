@@ -7,7 +7,7 @@
  * <p>Cicking on an entry which is already selected will be ignored
  * instead of resrtting all the other entries.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.tree.* ;
 

@@ -1,7 +1,7 @@
 /**
  * A class representing a parsed search request.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.util.* ;
 

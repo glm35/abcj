@@ -4,7 +4,7 @@
  * <p>This class will contain all key related information together with
  * the relevant methods to determine sharps and flats etc.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
 

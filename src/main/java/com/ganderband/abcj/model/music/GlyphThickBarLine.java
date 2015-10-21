@@ -1,7 +1,7 @@
 /**
  * The glyph class for a thick bar line.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.geom.* ;
 import  java.awt.* ;

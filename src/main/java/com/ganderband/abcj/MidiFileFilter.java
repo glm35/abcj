@@ -1,7 +1,7 @@
 /**
  * A file filter for accepting Midi files.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.io.File ;
 import  javax.swing.filechooser.* ;

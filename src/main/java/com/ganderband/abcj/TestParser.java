@@ -1,10 +1,10 @@
 /**
  * Parser tester.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.util.* ;
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.model.abc.* ;
 
 /**
  * @author Steve Spencer-Jowett

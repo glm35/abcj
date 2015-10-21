@@ -1,7 +1,7 @@
 /**
  * An interface for listeners to a tune search.
  */
-package  abcj.model ;
+package  com.ganderband.abcj.model ;
 
 public interface TuneSearchListener
 {

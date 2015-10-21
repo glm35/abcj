@@ -1,7 +1,7 @@
 /**
  * The class which shows the tune list title dialog.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.* ;
 

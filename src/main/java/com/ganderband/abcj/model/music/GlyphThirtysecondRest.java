@@ -1,7 +1,7 @@
 /**
  * The glyph class for a thirtysecond rest.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphThirtysecondRest extends GlyphEighthRest
 {

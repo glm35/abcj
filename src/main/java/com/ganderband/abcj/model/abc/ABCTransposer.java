@@ -3,7 +3,7 @@
  * 
  * <p>This class is responsible for transposing for transposing ABC from one key to another.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
 

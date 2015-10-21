@@ -1,10 +1,10 @@
 /**
  * The class which shows a general about dialog.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class AboutDialog
 {

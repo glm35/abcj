@@ -10,7 +10,7 @@
  * You must now invoke start() on the SwingWorker after
  * creating it.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import javax.swing.* ;
 

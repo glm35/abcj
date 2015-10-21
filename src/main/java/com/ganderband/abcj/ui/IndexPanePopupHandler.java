@@ -1,13 +1,13 @@
 /**
  * The popup menu handler for the index pane.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.event.* ;
 import  javax.swing.* ;
 import  javax.swing.tree.* ;
-import  abcj.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
 
 public class IndexPanePopupHandler implements MouseListener
 {

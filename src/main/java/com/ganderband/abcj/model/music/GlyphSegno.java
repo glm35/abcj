@@ -1,7 +1,7 @@
 /**
  * The glyph class for segno.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphSegno extends Glyph
 {

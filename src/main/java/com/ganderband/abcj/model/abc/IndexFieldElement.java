@@ -1,7 +1,7 @@
 /**
  * A class representing an Index Field Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class IndexFieldElement extends FieldElement
 {

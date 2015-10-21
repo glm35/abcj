@@ -1,4 +1,4 @@
-package abcj.ui ;
+package com.ganderband.abcj.ui ;
 
 /**
  * A JTextArea field which also provides Cut/Copy/Paste and Undo/Redo.

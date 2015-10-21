@@ -1,12 +1,12 @@
 /**
  * The class which shows the tune transpose dialog.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
-import  abcj.model.abc.*;
+import  com.ganderband.abcj.model.abc.*;
 
 public class TuneTransposeDialog extends JDialog implements ActionListener
 {

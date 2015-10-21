@@ -1,9 +1,9 @@
 /**
  * The top text editor pane of the ABC GUI - Displays the music.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 
 public class TextEditMusicPane extends MusicPane

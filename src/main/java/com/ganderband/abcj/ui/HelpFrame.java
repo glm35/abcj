@@ -1,7 +1,7 @@
 /**
  * A simple help frame class for ABCJ. 
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  javax.swing.* ;

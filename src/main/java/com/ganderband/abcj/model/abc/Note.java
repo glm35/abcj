@@ -1,9 +1,9 @@
 /**
  * A class representing a note in ABC.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class Note
 {

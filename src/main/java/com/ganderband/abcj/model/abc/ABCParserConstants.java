@@ -1,7 +1,7 @@
 /**
  * The constants used by ABCParser.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public interface ABCParserConstants
 {

@@ -1,7 +1,7 @@
 /**
  * The glyph class for a minim rest.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphMinimRest extends Glyph
 {

@@ -3,7 +3,7 @@
  *
  * <p>It will be used for generating MIDI files and playing the tune.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class Phrase {
 /**

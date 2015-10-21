@@ -1,13 +1,13 @@
 /**
  * The list edditing lower list pane of the ABC GUI.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.util.* ;
 import  javax.swing.* ;
 import  javax.swing.tree.* ;
-import  abcj.* ;
-import  abcj.model.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
 
 public class ListEditListPane extends JScrollPane
 {

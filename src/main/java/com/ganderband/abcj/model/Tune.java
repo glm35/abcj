@@ -1,11 +1,11 @@
 /**
  * A class representing a single tune. 
  */
-package  abcj.model ;
+package  com.ganderband.abcj.model ;
 
 import  java.io.* ;
 import  java.text.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class Tune
 {

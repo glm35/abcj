@@ -7,11 +7,11 @@
  * external tool to do the necessary !
  */
  
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.io.* ;
 import  java.util.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class ABCParser implements ABCParserConstants
 {

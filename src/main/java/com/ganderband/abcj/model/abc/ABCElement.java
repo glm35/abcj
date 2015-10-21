@@ -1,7 +1,7 @@
 /**
  * A class representing a general ABC Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public abstract class ABCElement implements ABCParserConstants
 {

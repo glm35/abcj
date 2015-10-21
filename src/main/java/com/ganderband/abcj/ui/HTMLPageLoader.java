@@ -1,7 +1,7 @@
 /**
  * A class to control the loading of HTML into an editor pane.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import java.io.FileInputStream;

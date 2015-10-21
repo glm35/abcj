@@ -1,7 +1,7 @@
 /**
  * A class repesenting the status bar.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  javax.swing.* ;
 import  java.awt.* ;

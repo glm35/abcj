@@ -1,7 +1,7 @@
 /**
  * The glyph class for a slide.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphSlide extends Glyph
 {

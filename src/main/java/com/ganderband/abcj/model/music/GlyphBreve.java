@@ -1,7 +1,7 @@
 /**
  * The glyph class for a breve (double note).
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphBreve extends Glyph
 {

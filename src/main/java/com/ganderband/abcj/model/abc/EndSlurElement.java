@@ -1,7 +1,7 @@
 /**
  * A class representing a Begin Slur Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class EndSlurElement extends ABCElement
 {

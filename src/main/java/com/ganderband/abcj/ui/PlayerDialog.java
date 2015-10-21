@@ -4,15 +4,15 @@
  * <p>Check whether a midi player can be created as there are some conflicts with later
  * JVMs if JMF has been installed.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
 import  javax.sound.midi.* ;
-import  abcj.* ;
-import  abcj.util.* ;
-import  abcj.midi.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.util.* ;
+import  com.ganderband.abcj.midi.* ;
 
 public class PlayerDialog extends JDialog implements ActionListener, Runnable
 {

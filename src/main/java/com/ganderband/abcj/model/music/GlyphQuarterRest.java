@@ -1,7 +1,7 @@
 /**
  * The glyph class for a quarter rest.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphQuarterRest extends Glyph
 {

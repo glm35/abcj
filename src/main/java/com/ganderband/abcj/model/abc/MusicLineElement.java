@@ -1,10 +1,10 @@
 /**
  * An element representing a single line of music.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class MusicLineElement extends ABCElement
 {

@@ -3,13 +3,13 @@
  * 
  * This can be clicked to remove it or it will disappear after 10 seconds.
  */
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
 
-import abcj.util.Utils;
+import com.ganderband.abcj.util.Utils;
 
 public class SplashWindow extends JWindow
 {

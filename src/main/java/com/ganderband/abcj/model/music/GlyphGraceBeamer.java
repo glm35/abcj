@@ -9,7 +9,7 @@
  * <p>It is provided as a sub-class of GlyphBeamer so we can use the relevant
  * calculation routines more easily.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 public class GlyphGraceBeamer extends GlyphBeamer
 {

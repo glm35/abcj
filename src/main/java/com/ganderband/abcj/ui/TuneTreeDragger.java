@@ -1,11 +1,11 @@
 /**
  * A dragger for handling drag from a tune tree.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.dnd.* ;
 import  java.awt.datatransfer.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class TuneTreeDragger implements DragGestureListener, DragSourceListener
 {

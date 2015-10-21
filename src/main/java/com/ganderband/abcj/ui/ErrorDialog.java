@@ -1,7 +1,7 @@
 /**
  * The class which shows a general error dialog.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.* ;
 

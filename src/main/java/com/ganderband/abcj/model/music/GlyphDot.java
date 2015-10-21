@@ -1,7 +1,7 @@
 /**
  * The glyph class for a dot.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphDot extends Glyph
 {

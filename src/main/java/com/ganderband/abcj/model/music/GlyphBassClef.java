@@ -1,7 +1,7 @@
 /**
  * The glyph class for a bass clef.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphBassClef extends Glyph
 {

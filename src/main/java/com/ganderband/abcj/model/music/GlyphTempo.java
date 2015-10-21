@@ -1,9 +1,9 @@
 /**
  * The glyph class for a tempo.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.model.abc.* ;
 
 public class GlyphTempo extends GlyphArray
 {

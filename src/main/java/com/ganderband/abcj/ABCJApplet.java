@@ -2,11 +2,11 @@
  * A simple applet providing some ABCJ function to embed in a web page.
  */
 
-package  abcj ;
+package  com.ganderband.abcj ;
 
 import  javax.swing.* ;
-import  abcj.model.* ;
-import  abcj.ui.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.ui.* ;
 
 public class ABCJApplet extends JApplet
 {

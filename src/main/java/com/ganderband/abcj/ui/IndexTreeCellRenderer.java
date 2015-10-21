@@ -1,13 +1,13 @@
 /**
  * This class is used to render cells in the index tree.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  javax.swing.* ;
 import  javax.swing.tree.* ;
 import  java.awt.* ;
-import  abcj.model.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class IndexTreeCellRenderer extends DefaultTreeCellRenderer
 {

@@ -1,7 +1,7 @@
 /**
  * The glyph class for an empty note head (minim).
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphEmptyNoteHead extends Glyph
 {

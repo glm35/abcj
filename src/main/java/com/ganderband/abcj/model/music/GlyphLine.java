@@ -1,7 +1,7 @@
 /**
  * The glyph class for a line item.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.* ;
 import  java.awt.geom.* ;

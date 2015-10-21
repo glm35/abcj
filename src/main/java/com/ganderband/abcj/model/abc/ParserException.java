@@ -1,7 +1,7 @@
 /**
  * A class representing exceptions thrown by the parser.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class ParserException extends Exception
 {

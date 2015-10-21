@@ -18,11 +18,11 @@
  * <li>Chords are not allowed in tuplets.
  * </ol> 
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.util.* ;
-import  abcj.model.abc.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class GlyphMultiNote extends GlyphNoteBase
 {

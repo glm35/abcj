@@ -6,7 +6,7 @@
  * 
  * <p>In advanced mode it also provides a 'save to midi' and an 'exit' button.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
@@ -15,10 +15,10 @@ import  javax.swing.* ;
 
 import  java.util.* ;
 
-import  abcj.* ;
-import  abcj.model.* ;
-import  abcj.model.abc.* ;
-import  abcj.model.music.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.model.music.* ;
 
 public class AppletMainPane extends JPanel implements ABCJConstants, MainGUI, ActionListener
 {

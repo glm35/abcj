@@ -1,7 +1,7 @@
 /**
  * The glyph class for longa.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphLonga extends Glyph
 {

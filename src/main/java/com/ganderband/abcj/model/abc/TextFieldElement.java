@@ -3,7 +3,7 @@
  *
  * <p>This class represents all the fields where only a text field is needed. 
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class TextFieldElement extends FieldElement
 {

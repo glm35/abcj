@@ -2,16 +2,16 @@
  * The outermost Pane of the ABCJ GUI.
  *
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  javax.swing.* ;
 import  javax.swing.event.* ;
 import  java.util.* ;
 
-import  abcj.* ;
-import  abcj.model.* ;
-import  abcj.model.abc.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.model.abc.* ;
 
 public class MainPane extends JSplitPane implements ABCJConstants, ChangeListener, MainGUI
 {

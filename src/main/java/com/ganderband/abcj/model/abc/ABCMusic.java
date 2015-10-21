@@ -1,7 +1,7 @@
 /**
  * A class representing all the ABC Music information.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
 

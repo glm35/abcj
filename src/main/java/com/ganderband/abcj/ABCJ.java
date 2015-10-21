@@ -1,4 +1,4 @@
-package  abcj ;
+package  com.ganderband.abcj ;
 
 /**
  * The main class to instantiate ABCJ.
@@ -40,13 +40,13 @@ import  java.io.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
 import  javax.sound.midi.* ;
-import  abcj.ui.* ;
-import  abcj.ui.music.* ;
-import  abcj.model.* ;
-import  abcj.model.abc.* ;
-import  abcj.model.music.* ;
-import  abcj.midi.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.ui.* ;
+import  com.ganderband.abcj.ui.music.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.model.music.* ;
+import  com.ganderband.abcj.midi.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class ABCJ extends WindowAdapter implements ABCJConstants
 {

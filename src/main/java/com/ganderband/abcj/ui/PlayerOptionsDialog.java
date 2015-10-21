@@ -1,13 +1,13 @@
 /**
  * The dialog representing playback options. 
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  java.awt.event.* ;
 import  javax.swing.* ;
 
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class PlayerOptionsDialog extends JDialog implements ActionListener
 {

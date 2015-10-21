@@ -1,10 +1,10 @@
 /**
  * A class representing all the ABC Header information.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class ABCHeader implements ABCParserConstants
 {

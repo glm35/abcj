@@ -2,13 +2,13 @@
  * A class to manage the music display area when text editting.
  */
 
-package  abcj.ui.music ;
+package  com.ganderband.abcj.ui.music ;
 
 import  java.awt.* ;
 import  javax.swing.* ;
 import  java.util.* ;
 
-import abcj.model.music.*;
+import com.ganderband.abcj.model.music.*;
 
 public class MusicPanel extends JPanel
 {

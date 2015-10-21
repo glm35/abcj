@@ -1,7 +1,7 @@
 /**
  * The glyph class for a coda.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphCoda extends Glyph
 {

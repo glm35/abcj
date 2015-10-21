@@ -1,7 +1,7 @@
 /**
  * The glyph class for common time.
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphCommonTime extends Glyph
 {

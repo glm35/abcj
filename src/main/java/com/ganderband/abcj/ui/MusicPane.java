@@ -1,14 +1,14 @@
 /**
  * A general pane for holding a music panel.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  javax.swing.* ;
 import  java.util.* ;
-import  abcj.* ;
-import  abcj.model.* ;
-import  abcj.ui.music.* ;
+import  com.ganderband.abcj.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.ui.music.* ;
 
 
 public abstract class MusicPane extends JScrollPane

@@ -1,11 +1,11 @@
 /**
  * This class represents a single tunebook (in memory).
  */
-package  abcj.model ;
+package  com.ganderband.abcj.model ;
 
 import  java.io.* ;
 import  java.util.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class TuneBook
 {

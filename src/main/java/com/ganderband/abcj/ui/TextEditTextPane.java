@@ -1,12 +1,12 @@
 /**
  * The bottom text editor pane of the ABC GUI - For editting the ABC Text.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  javax.swing.* ;
 import  javax.swing.event.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class TextEditTextPane extends JScrollPane implements DocumentListener
 {

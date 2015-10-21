@@ -1,9 +1,9 @@
 /**
  * The top list editor pane of the ABC GUI - For showing music from lists.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class ListEditMusicPane extends MusicPane
 {

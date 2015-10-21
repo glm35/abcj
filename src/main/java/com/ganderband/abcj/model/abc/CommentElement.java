@@ -1,7 +1,7 @@
 /**
  * A class representing a Comment Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class CommentElement extends ABCElement
 {

@@ -1,10 +1,10 @@
 /**
  * An element representing a note.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 import  java.util.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class NoteElement extends ABCElement
 {

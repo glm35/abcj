@@ -3,7 +3,7 @@
  * 
  * This should currently be a single character A-Z.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class PartFieldElement extends FieldElement
 {

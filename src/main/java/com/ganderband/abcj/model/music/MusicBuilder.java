@@ -3,13 +3,13 @@
  * <p>This class builds the music notation model from the ABC model.
  * It is called from the ABCParser.parse method as part of the parsing process.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.* ;
 import  java.awt.geom.* ;
 import  java.util.* ;
-import  abcj.model.abc.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class MusicBuilder implements ABCParserConstants
 {

@@ -1,7 +1,7 @@
 /**
  * The glyph class for a filled note head (crotchet downwards).
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphFilledNoteHead extends Glyph
 {

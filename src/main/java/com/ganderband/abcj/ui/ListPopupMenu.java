@@ -1,11 +1,11 @@
 /**
  * The list popup menu for the list pane.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.event.* ;
 import  javax.swing.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class ListPopupMenu extends JPopupMenu implements ActionListener
 {

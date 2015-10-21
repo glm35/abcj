@@ -1,7 +1,7 @@
 /**
  * A class representing an Key Field Element.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class KeyFieldElement extends FieldElement
 {

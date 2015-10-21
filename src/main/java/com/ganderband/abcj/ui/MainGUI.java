@@ -1,9 +1,9 @@
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import java.awt.Dimension;
 import java.util.ArrayList;
 
-import  abcj.model.* ;
+import  com.ganderband.abcj.model.* ;
 
 /**
  * This defines the interface to the main GUI.

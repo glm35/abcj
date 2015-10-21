@@ -1,12 +1,12 @@
 /**
  * The top text editor pane of the ABC GUI - For showing ABC errors.
  */
-package  abcj.ui ;
+package  com.ganderband.abcj.ui ;
 
 import  java.awt.* ;
 import  javax.swing.* ;
 import  javax.swing.text.* ;
-import  abcj.* ;
+import  com.ganderband.abcj.* ;
 
 public class TextEditErrorPane extends JScrollPane
 {

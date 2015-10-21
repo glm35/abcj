@@ -3,7 +3,7 @@
  *
  * <p>This class manages all the lines used to beam notes together. 
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.* ;
 import  java.util.* ;

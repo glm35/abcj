@@ -2,16 +2,16 @@
  * A class to manage the printing of music.
  */
 
-package  abcj.ui.music ;
+package  com.ganderband.abcj.ui.music ;
 
 import  java.awt.* ;
 import  java.awt.geom.* ;
 import  java.awt.print.* ;
 import  java.util.* ;
-import  abcj.model.* ;
-import  abcj.model.abc.* ;
-import  abcj.model.music.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.model.music.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class MusicPrinter implements Printable
 {

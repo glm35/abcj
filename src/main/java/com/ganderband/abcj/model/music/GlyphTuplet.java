@@ -1,13 +1,13 @@
 /**
  * The glyph class for a tuplet.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.* ;
 import  java.util.* ;
 
-import  abcj.model.abc.* ;
-import  abcj.util.* ;
+import  com.ganderband.abcj.model.abc.* ;
+import  com.ganderband.abcj.util.* ;
 
 public class GlyphTuplet extends GlyphArray
 {

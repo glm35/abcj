@@ -1,7 +1,7 @@
 /**
  * The glyph class for a semi-breve (whole note).
  */
-package  abcj.model.music;
+package  com.ganderband.abcj.model.music;
 
 public class GlyphSemiBreve extends Glyph
 {

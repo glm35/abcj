@@ -3,7 +3,7 @@
  * 
  * <p>See ABC spec for format of text.
  */
-package  abcj.model.abc ;
+package  com.ganderband.abcj.model.abc ;
 
 public class PartsFieldElement extends FieldElement
 {

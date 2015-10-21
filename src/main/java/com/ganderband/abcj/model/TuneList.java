@@ -1,7 +1,7 @@
 /**
  * This class represents a single tune list (in memory).
  */
-package  abcj.model ;
+package  com.ganderband.abcj.model ;
 
 import  java.io.* ;
 import  java.util.* ;

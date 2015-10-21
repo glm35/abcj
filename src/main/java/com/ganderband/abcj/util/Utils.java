@@ -1,7 +1,7 @@
 /**
  * A class containing some general utilites.
  */
-package  abcj.util ;
+package  com.ganderband.abcj.util ;
 
 import  java.awt.* ;
 import  java.awt.font.* ;

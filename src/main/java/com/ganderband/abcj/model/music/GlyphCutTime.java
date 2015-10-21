@@ -1,7 +1,7 @@
 /**
  * The glyph class for cut time.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 public class GlyphCutTime extends Glyph
 {

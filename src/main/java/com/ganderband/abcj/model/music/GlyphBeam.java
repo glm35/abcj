@@ -1,7 +1,7 @@
 /**
  * The glyph class for a single beam.
  */
-package  abcj.model.music ;
+package  com.ganderband.abcj.model.music ;
 
 import  java.awt.geom.* ;
 
