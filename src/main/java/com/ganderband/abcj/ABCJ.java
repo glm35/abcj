@@ -53,7 +53,7 @@ public class ABCJ extends WindowAdapter implements ABCJConstants
 /**
  * The current version number.
  */
-	public static String  VERSION = "1.8" ;
+	public static String  VERSION = "1.9-SNAPSHOT" ;
 /**
  * The main frame for the application.
  */
