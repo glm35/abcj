@@ -60,7 +60,7 @@
 \begin_body
 
 \begin_layout Title
-Expression de besoins pour abcj
+Liste des choses faites et à faires sur abcj
 \end_layout
 
 \begin_layout Section
@@ -68,131 +68,58 @@ Objectifs du document
 \end_layout
 
 \begin_layout Itemize
-Décrire ce que j'attends d'un logiciel de musique permettant de manipuler
- des fichiers ABC sous Linux
+Lister les choses à faire: améliorations, corrections de bugs, nouvelles
+ fonctionnalités
+\end_layout
+
+\begin_layout Itemize
+Donner des éléments sur les choses en faire: description, raison, choix
+ techniques, ...
+\end_layout
+
+\begin_layout Itemize
+Dire dans quelle version d'abcj la chose à faire à été faite
 \end_layout
 
 \begin_layout Section
-Qu'est-ce que abcj? Pourquoi abcj?
-\end_layout
-
-\begin_layout Standard
-abcj est un logiciel permettant d'éditer des fichiers ABC, de jouer des
- fichiers ABC et de gérer une collection de fichiers ABC.
-\end_layout
-
-\begin_layout Standard
-Plus précisément, mes usages d'abcj:
-\end_layout
-
-\begin_layout Itemize
-Garder une trace écrite des airs que j'apprends à la flûte ou à la guitare,
- et simplifier la rédaction des fichiers ABC
-\end_layout
-
-\begin_layout Itemize
-Jouer les airs ABC pour pouvoir pratiquer l'accompagnement à la guitare
- par dessus
-\end_layout
-
-\begin_layout Itemize
-Organiser des recueils d'airs ABC: airs joués avec Cunla, airs joués à la
- flûte, compos de François, ...
-\end_layout
-
-\begin_layout Itemize
-Chercher un air parmi tous les recueils
-\end_layout
-
-\begin_layout Section
-Documentation
-\end_layout
-
-\begin_layout Standard
-La documentation est une doc de travail rédigée sous LyX et en français.
-\end_layout
-
-\begin_layout Standard
-Les commentaires dans le code et les commits Git sont rédigés en anglais
- pour être publiés sur Internet tel quel.
-\end_layout
-
-\begin_layout Standard
-La documentation se compose de plusieurs documents:
+Choses à faire
 \end_layout
 
 \begin_layout Subsection
-Expression de besoin
+Bugs à corriger
+\end_layout
+
+\begin_layout Subsubsection
+Coller double lors d'un copier/coller
 \end_layout
 
 \begin_layout Standard
-Le présent document.
+Avec Ctrl+V mais pas avec la souris.
+\end_layout
+
+\begin_layout Subsubsection
+Tempo incorrect au démarrage du playback
+\end_layout
+
+\begin_layout Subsection
+Généralités
+\end_layout
+
+\begin_layout Subsubsection
+Le fichier des propriétés ABCJ.PRO est (re-)créé dans le répertoire courant
+\end_layout
+
+\begin_layout Standard
+Problèmes:
 \end_layout
 
 \begin_layout Itemize
-Décrit les objectifs haut niveau du logiciel
+il faut toujours être dans le même répertoire pour avoir le fichier au bon
+ endroit
 \end_layout
 
 \begin_layout Itemize
-Décrit les fonctionnalités du logiciel dans le détail, d'un point de vue
- utilisateur
-\end_layout
-
-\begin_layout Itemize
-Décrit les différents documents et leur contenu
-\end_layout
-
-\begin_layout Subsection
-Etat de l'art des logiciels ABC sous Linux
-\end_layout
-
-\begin_layout Standard
-Qu'est-ce qui existe, qu'est-ce que ça fait?
-\end_layout
-
-\begin_layout Standard
-Points forts et limites par rapport à mes attentes?
-\end_layout
-
-\begin_layout Standard
-D'où je pars pour abcj?
-\end_layout
-
-\begin_layout Subsection
-Conception d'abcj
-\end_layout
-
-\begin_layout Standard
-Choix techniques et notes de conception.
-\end_layout
-
-\begin_layout Subsection
-Guide d'installation
-\end_layout
-
-\begin_layout Standard
-Comment compiler et installer abcj.
-\end_layout
-
-\begin_layout Section
-Spécifications fonctionnelle
-\end_layout
-
-\begin_layout Subsection
-Compilation
-\end_layout
-
-\begin_layout Standard
-Le logiciel doit compiler avec Maven2 et pouvoir être exécuté depuis n'importe
- où.
-\end_layout
-
-\begin_layout Subsection
-Fichier de configuration
-\end_layout
-
-\begin_layout Standard
-Sous Linux: ~/.abcj
+le fichier est trop visible (je verrais bien un ~/.abcj à la place)
 \end_layout
 
 \begin_layout Subsection
@@ -357,6 +284,50 @@ Exporter en PDF avec lilypond
 
 \begin_layout Itemize
 Pour avoir un joli rendu
+\end_layout
+
+\begin_layout Section
+Choses faites
+\end_layout
+
+\begin_layout Subsection
+Version en cours de développement (1.9)
+\end_layout
+
+\begin_layout Subsubsection
+Compilation avec Maven
+\end_layout
+
+\begin_layout Itemize
+Ecriture du pom.xml (avec un cible exec pour pouvoir lancer abcj)
+\end_layout
+
+\begin_layout Itemize
+Restructuration du code pour respecter les conventions Maven
+\end_layout
+
+\begin_layout Itemize
+Intégration des images dans le JAR (corrige le problème: 
+\begin_inset Quotes eld
+\end_inset
+
+pas possible d'exécuter le JAR depuis n'importe où
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+BUG: Le JAR ne peut pas être exécuté ailleurs que depuis la racine du code
+\end_layout
+
+\begin_layout Standard
+Raison: les images ne sont pas intégrées dans le JAR.
+\end_layout
+
+\begin_layout Standard
+Correction: images déplacées dans src/main/resources
 \end_layout
 
 \end_body
