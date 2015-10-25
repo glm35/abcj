@@ -1,0 +1,24 @@
+#ABCJ Properties File
+#Mon Jan 23 15:17:55 GMT 2006
+LibraryTitle2=Samples 2
+LibraryTitle1=Samples 1
+EditMode=1
+FrameRect.height=565
+ui.ZoomFactor=1.0
+Score.ShowTempo=1
+Player.Transpose=0
+Player.GraceNotes=1
+Score.IgnoreBreaks=0
+ui.MainDividerLocation=257
+ui.TextEditDividerLocation=253
+ui.ListEditDividerLocation=346
+Score.StaveWidth=600
+LibraryFile2=SAMPMUS2.ABC
+LibraryFile1=SAMPMUS.ABC
+FrameRect.y=45
+FrameRect.width=695
+FrameRect.x=94
+ui.MusicEditDividerLocation=272
+Player.Roll=1
+Player.Instrument=41
+LookAndFeel=1

@@ -8,7 +8,7 @@ Type=Application
 Categories=AudioVideo;Audio;AudioVideoEditing;
 
 Exec=java -cp /home/gwen/code/abcj/target/ABCJ-1.9-SNAPSHOT.jar com.ganderband.abcj.ABCJ
-Path=/home/gwen/code/abcj
+#Path=/home/gwen/code/abcj
 Terminal=false
 StartupNotify=true
 MimeType=text/vnd.abc;

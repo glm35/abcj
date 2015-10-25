@@ -12,7 +12,7 @@ public class ABCJProperties extends Properties
 /**
  * The ABCJ Properties file name.
  */
-	private static final String  PROPS_FILE = "ABCJ.PRO" ;
+	private static final String  PROPS_FILE = System.getProperty("user.home") + "/.abcj" ;
 /**
  * The Starter ABCJ Properties file name.
  */
@@ -65,30 +65,24 @@ public static  void  load()
 //  Determine which file name to load.
 //  If ABCJ.PRO does not exist then load from a starter file ABCJ.PRO.starter
 	
-	String  FileName = PROPS_FILE ;
-	
-	if ( ! ( new File(PROPS_FILE) ).exists() )
-		FileName = PROPS_FILE_STARTER ;
-	
-//  Now load from a file
-
 	try {
-		sProps.load( new FileInputStream(FileName) ) ;
+		sProps.load( new FileInputStream(PROPS_FILE) ) ;
 	}
-	
-//  If not found then ignore and allow defaults to be kept
-
 	catch ( FileNotFoundException e ) {
 		System.out.println("Properties file not found - using defaults") ;
+		try {
+			sProps.load(ABCJProperties.class.getClassLoader().getResourceAsStream(PROPS_FILE_STARTER));
+		}
+		catch ( Exception e2 ) {
+			System.out.println("*ERROR* - Failed to load properties file");
+			System.out.println(e2);
+		}
 	}
-
-//  Log any other error
-
 	catch ( Exception e ) {
-		System.out.println("*ERROR* - Failed to load properties file") ;
-		System.out.println(e) ;
+		System.out.println("*ERROR* - Failed to load properties file");
+		System.out.println(e);
 	}
-	
+
 //  Build the Library array 
 
 	loadLibraryArray() ;
