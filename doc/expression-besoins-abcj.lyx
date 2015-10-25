@@ -196,6 +196,10 @@ Sous Linux: ~/.abcj
 \end_layout
 
 \begin_layout Subsection
+IHM
+\end_layout
+
+\begin_layout Subsubsection
 Raccourcis clavier
 \end_layout
 
@@ -211,6 +215,24 @@ Entrée dans le champ de recherche pour lancer la recherche!
 Ne pas changer la vue de l'index quand on recherche un morceau (use case:
  je cherche un morceau pour le copier dans mon book).
  Mais peut-être pouvoir aller au morceau dans la vue index.
+\end_layout
+
+\begin_layout Subsubsection
+Langue
+\end_layout
+
+\begin_layout Standard
+Internationalisation, avec version française et version anglaise.
+\end_layout
+
+\begin_layout Subsection
+Cohérence des fichiers
+\end_layout
+
+\begin_layout Standard
+abcj doit assurer que les fichiers manipulés ne sont pas corrompus (fichiers
+ .abc, fichiers de propriétés).
+ Notamment en cas de double ouverture d'abcj.
 \end_layout
 
 \begin_layout Subsection

@@ -97,8 +97,42 @@ Coller double lors d'un copier/coller
 Avec Ctrl+V mais pas avec la souris.
 \end_layout
 
+\begin_layout Standard
+Confirmé après recompilation avec Maven.
+\end_layout
+
 \begin_layout Subsubsection
-Tempo incorrect au démarrage du playback
+Tempo playback inattendu
+\end_layout
+
+\begin_layout Standard
+Exemple: kalyana; 6/8; Q=150 mais ça rame.
+\end_layout
+
+\begin_layout Subsubsection
+ABCJ.PRO.starter fait référence à des abc books inexistants
+\end_layout
+
+\begin_layout Standard
+En fait ils sont dans l'installation originale, mais pas présent dans ma
+ version de développement.
+\end_layout
+
+\begin_layout Standard
+Idée de workaround: les copier à un endroit 
+\begin_inset Quotes eld
+\end_inset
+
+bien connu
+\begin_inset Quotes erd
+\end_inset
+
+ (eg /usr/local/share/abcj/samples) lors de l'installation, et faire référence
+ à ces endroits dans le fichier starter.
+\end_layout
+
+\begin_layout Standard
+Bon, c'est du peaufinage, on verra ça plus tard...
 \end_layout
 
 \begin_layout Subsection
@@ -106,23 +140,23 @@ Généralités
 \end_layout
 
 \begin_layout Subsubsection
-Le fichier des propriétés ABCJ.PRO est (re-)créé dans le répertoire courant
+Ré-entrance
 \end_layout
 
 \begin_layout Standard
-Problèmes:
+Qu'est-ce qui se passe quand on lance deux instances d'abcj?
 \end_layout
 
-\begin_layout Itemize
-il faut toujours être dans le même répertoire pour avoir le fichier au bon
- endroit
-\end_layout
-
-\begin_layout Itemize
-le fichier est trop visible (je verrais bien un ~/.abcj à la place)
+\begin_layout Standard
+Problème potentiel avec le fichier de propriétés, le fichier de liste et
+ l'édition simultanée du même fichier abc.
 \end_layout
 
 \begin_layout Subsection
+IHM
+\end_layout
+
+\begin_layout Subsubsection
 Raccourcis clavier
 \end_layout
 
@@ -138,6 +172,14 @@ Entrée dans le champ de recherche pour lancer la recherche!
 Ne pas changer la vue de l'index quand on recherche un morceau (use case:
  je cherche un morceau pour le copier dans mon book).
  Mais peut-être pouvoir aller au morceau dans la vue index.
+\end_layout
+
+\begin_layout Subsubsection
+Langue
+\end_layout
+
+\begin_layout Standard
+Internationalisation, avec version française et version anglaise.
 \end_layout
 
 \begin_layout Subsection
@@ -286,12 +328,20 @@ Exporter en PDF avec lilypond
 Pour avoir un joli rendu
 \end_layout
 
+\begin_layout Subsection
+Aide
+\end_layout
+
+\begin_layout Standard
+Afficher le format ABC pour référence.
+\end_layout
+
 \begin_layout Section
 Choses faites
 \end_layout
 
 \begin_layout Subsection
-Version en cours de développement (1.9)
+Version en cours de développement (1.9-SNAPSHOT)
 \end_layout
 
 \begin_layout Subsubsection
@@ -328,6 +378,44 @@ Raison: les images ne sont pas intégrées dans le JAR.
 
 \begin_layout Standard
 Correction: images déplacées dans src/main/resources
+\end_layout
+
+\begin_layout Subsubsection
+BUG: Tempo incorrect au démarrage du playback
+\end_layout
+
+\begin_layout Standard
+Semble corrigé depuis la recompilation avec Maven.
+\end_layout
+
+\begin_layout Subsubsection
+Le fichier des propriétés ABCJ.PRO est (re-)créé dans le répertoire courant
+\end_layout
+
+\begin_layout Standard
+Problèmes:
+\end_layout
+
+\begin_layout Itemize
+il faut toujours être dans le même répertoire pour avoir le fichier au bon
+ endroit
+\end_layout
+
+\begin_layout Itemize
+le fichier est trop visible (je verrais bien un ~/.abcj à la place)
+\end_layout
+
+\begin_layout Standard
+Implémentation:
+\end_layout
+
+\begin_layout Itemize
+le fichier de propriétés est maintenant spécifique à l'utilisateur courant,
+ et recherché dans ~/.abcj
+\end_layout
+
+\begin_layout Itemize
+si le fichier n'existe pas: il est créé à partir de la ressource ABCJ.PRO.starter
 \end_layout
 
 \end_body
