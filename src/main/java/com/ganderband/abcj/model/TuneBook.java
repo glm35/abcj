@@ -199,9 +199,6 @@ public void  load()
 
 			Line = Line.trim() ;
 
-			if ( Line.isEmpty() )
-				continue;
-
 		//  Look for start of new tune
 	
 			if ( ! LoadingTune ) {
